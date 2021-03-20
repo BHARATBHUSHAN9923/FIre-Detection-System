@@ -14,9 +14,9 @@ WidgetMap myMap(V0);  // V0 for virtual pin of Map Widget
 SoftwareSerial ss(RXPin, TXPin);  // The serial connection to the GPS device
 
 unsigned int move_index = 1; 
-char auth[] = "gET-1CGUa7aBrU1-uyc-A46AWLFbxVaP"; //Auth code sent via Email
-char ssid[] = "JioFi_242DA29";                                       // Name of your network (HotSpot or Router name)
-char pass[] = "pgxp8hxfek"; 
+char auth[] = "gET-1CGUa7aBrU1-uyc-A46AWLFbxVaP"; //Auth code sent via Email from blynk
+char ssid[] = "Wifi Name";// Name of your network (HotSpot or Router name)
+char pass[] = "Enter your wifi password"; 
 int flag=0;
 int data;
 #define firepin D6
